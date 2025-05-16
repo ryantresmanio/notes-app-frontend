@@ -26,9 +26,10 @@ Backend GitHub Repository: [https://github.com/ryantresmanio/notes-app-backend.g
 - Deployed on Render
 
 
-**Notes
-- Main API endpoint: /notes
-- H2 is embedded and saves data in a file (./notes-app-db).
+> ⚠️ **Note:** The backend is hosted on **Render's free tier**, which may result in:
+> - **Cold starts**: The server "sleeps" when inactive, causing the first request to take up to 30 seconds to respond.
+> - **Limited resources**: Occasional slow performance or timeouts during high traffic or load.
+> - **Intermittent downtime**: The free tier may experience short outages or redeployments without warning.
 - No login or auth — purely for practice and learning.
 
 
